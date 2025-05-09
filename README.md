@@ -1,2 +1,2 @@
 Api use to for game_hub is https://rawg.io/. My code is inspire by mosh hamedani thanks https://codewithmosh.com/ learn how to code with mosh hamedani the best code instructor for frontend and backend 
- ever.  take a look at the project: [text](https://game-hub-tau-woad.vercel.app/)
+ ever.  take a look at the project: [link](https://game-hub-tau-woad.vercel.app/)
