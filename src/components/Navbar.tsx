@@ -25,7 +25,7 @@ export const Navbar = () => {
   return (
     <HStack mb="20px" paddingLeft={5} paddingRight={3} paddingY={2}>
       <Link to='/'>
-      <Image src={logo} boxSize={"50px"} objectFit='cover' /></Link>
+      <Image src={logo} width='50px' height='50px' /></Link>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -56,8 +56,7 @@ export const Navbar = () => {
         >
           {colorMode === "light" ? <LuSun /> : <LuMoon />}
         </IconButton>
-        <Text textWrap={"nowrap"}>
-          {" "}
+        <Text display={{base: 'none',lg: 'block'}} textWrap={"nowrap"}>
           {colorModeText ? "Dark Mode" : "Light Mode"}
         </Text>
       </ClientOnly>
