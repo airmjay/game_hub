@@ -19,7 +19,7 @@ export const GameCard = ( games: Game) => {
       </Box> 
       <Card.Body gap="2" bg={'gray.950'}>
         <Flex justify={'space-between'}>
-        <Card.Description w={'300px'} textAlign={'center'} display={'flex'} gap={2} flexWrap={'wrap'}>
+        <Card.Description w={{base: 'auto',lg:'300px'}} textAlign={'center'} display={'flex'} gap={2} flexWrap={'wrap'}>
             {games.platforms.map(({platform}) => (
               <IconData key={platform.id} {...platform} />
             ))}
