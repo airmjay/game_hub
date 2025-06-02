@@ -11,7 +11,7 @@ const ExpandText = ({text} : {text?: string}) => {
   return (
     <Box>
         {text}
-        <Button ml='20px' size='xs' bg='yellow.300' onClick={() => setExpand(!expand)}>Read More</Button>
+        <Button ml='20px' size='xs' bg='yellow.300' onClick={() => setExpand(!expand)}> {!expand ? 'Read More' : 'Read Less'}</Button>
     </Box>
   )
 }
